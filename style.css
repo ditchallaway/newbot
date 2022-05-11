@@ -1101,6 +1101,16 @@ textarea.w-select {
   display: none !important;
   -webkit-appearance: none;
 }
+.w-background-video--control {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  background-color: transparent;
+  padding: 0;
+}
+.w-background-video--control > [hidden] {
+  display: none !important;
+}
 .w-slider {
   position: relative;
   height: 300px;
@@ -1922,6 +1932,12 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+.wf-layout-layout {
+  display: grid !important;
+}
+.wf-layout-cell {
+  display: flex !important;
+}
 
 /* ==========================================================================
    Start of custom Webflow CSS
@@ -1990,6 +2006,7 @@ textarea.w-select {
 }
 
 .logo-wrapper {
+  max-width: 50%;
   margin-bottom: 20px;
 }
 
@@ -2128,7 +2145,7 @@ textarea.w-select {
 
 .emoji-party {
   position: absolute;
-  left: -4%;
+  left: 6%;
   top: 6%;
   right: auto;
   bottom: auto;
@@ -2139,7 +2156,7 @@ textarea.w-select {
   position: absolute;
   left: auto;
   top: auto;
-  right: -7%;
+  right: 3%;
   bottom: 9%;
   width: 190px;
   mix-blend-mode: normal;
@@ -2149,14 +2166,14 @@ textarea.w-select {
   position: absolute;
   left: auto;
   top: 14%;
-  right: -5%;
+  right: 2%;
   bottom: auto;
   width: 180px;
 }
 
 .emoji-rainbow {
   position: absolute;
-  left: -4%;
+  left: 3%;
   top: auto;
   right: auto;
   bottom: 12%;
@@ -2338,7 +2355,7 @@ textarea.w-select {
 }
 
 .image {
-  max-width: 30%;
+  max-width: 100%;
   min-height: 100%;
   -webkit-filter: hue-rotate(335deg);
   filter: hue-rotate(335deg);
@@ -2397,6 +2414,10 @@ textarea.w-select {
   align-items: stretch;
 }
 
+.text-span {
+  font-weight: 700;
+}
+
 @media screen and (max-width: 991px) {
   .footer {
     padding-right: 20px;
@@ -2414,23 +2435,32 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  .site-wrapper {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
   .emoji-party {
+    display: none;
     width: 130px;
   }
 
   .emoji-confetti {
     right: -8%;
     bottom: -4%;
+    display: none;
     width: 150px;
   }
 
   .emoji-robot {
     top: -4%;
+    display: none;
     width: 130px;
   }
 
   .emoji-rainbow {
     bottom: -8%;
+    display: none;
     width: 150px;
   }
 
