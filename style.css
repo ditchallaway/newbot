@@ -1991,8 +1991,9 @@ textarea.w-select {
       hsla(0, 0%, 100%, 0.74)
     ),
     url("https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622e74f5da4a6e7ed93216ef_mmmotif.svg");
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, auto;
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
   box-shadow: 0 20px 17px 0 rgba(0, 0, 0, 0.07);
   color: #545465;
   text-align: center;
@@ -2136,7 +2137,7 @@ textarea.w-select {
 }
 
 .alt-login {
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -2154,7 +2155,7 @@ textarea.w-select {
   top: 6%;
   right: auto;
   bottom: auto;
-  width: 190px;
+  width: 140px;
 }
 
 .emoji-confetti {
@@ -2163,7 +2164,7 @@ textarea.w-select {
   top: auto;
   right: 3%;
   bottom: 9%;
-  width: 160px;
+  width: 140px;
   mix-blend-mode: normal;
 }
 
@@ -2173,7 +2174,7 @@ textarea.w-select {
   top: 14%;
   right: 2%;
   bottom: auto;
-  width: 180px;
+  width: 150px;
 }
 
 .emoji-rainbow {
@@ -2182,7 +2183,7 @@ textarea.w-select {
   top: auto;
   right: auto;
   bottom: 12%;
-  width: 180px;
+  width: 150px;
 }
 
 .input-wrap {

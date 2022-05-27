@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-domain="login-703098.webflow.io" data-wf-page="622c9fbbda838870615b60da" data-wf-site="622c9fbbda8388f9a15b60d6" data-wf-status="1">
+<html data-wf-domain="login-703098.webflow.io" data-wf-page="6290719f0cbd63b11373d62b" data-wf-site="622c9fbbda8388f9a15b60d6" data-wf-status="1">
   <head>
     <meta charset="utf-8" />
     <title>Sign up</title>
@@ -57,24 +57,25 @@
           </div>
         </div>
         <div data-w-id="cada047f-229d-1026-a82e-a3378811afef" style="opacity: 0" class="alt-login">
-          <div class="form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" data-w-id="c72eaf6e-3fd3-1ee1-69fe-8282abf432c5" class="form">
-              <a href="#" class="social-login-button top w-inline-block"
-                ><img loading="lazy" src="https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622c9fbbda838810a95b60f0_google.svg" alt="" class="social-login-button__icon" />
-                <div>Continue with Google</div></a
-              ><a href="#" class="social-login-button w-inline-block"
-                ><img loading="lazy" src="https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622c9fbbda83881f5b5b60ef_apple_logo.svg" alt="" class="social-login-button__icon" />
-                <div>Continue with Apple</div></a
-              >
-              <div class="divider"></div>
-              <input type="email" class="input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="name@workemail.com" id="field-2" required="" /><a
-                href="https://connect.squareup.com/oauth2/authorize?client_id=sq0idp-7Hfha_qdyt3P6Pp8YYwjkQ&amp;scope=ITEMS_READ+MERCHANT_PROFILE_READ&amp;session=False&amp;state=8"
-                class="social-login-button submit-button w-inline-block"
-                ><div class="text-block-2">Press the Button</div></a
-              >
-            </form>
-            <div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
-            <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div>
+          <div class="w-embed w-script">
+            <div id="signup-embed"></div>
+            <script>
+              var o_signup_options = {
+                id: "Outseta",
+                domain: "skillstory.outseta.com",
+                load: "auth",
+                auth: {
+                  widgetMode: "register",
+                  planUid: "xmerLjQV",
+                  planPaymentTerm: "month",
+                  skipPlanOptions: true,
+                  id: "signup_embed",
+                  mode: "embed",
+                  selector: "#signup-embed",
+                },
+              };
+            </script>
+            <script src="https://cdn.outseta.com/outseta.min.js" data-options="o_signup_options"></script>
           </div>
         </div>
         <img
@@ -86,7 +87,7 @@
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca26c79149cd9033c024c_work5-p-500.jpeg 500w,
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca26c79149cd9033c024c_work5.jpg        640w
           "
-          sizes="(max-width: 767px) 100vw, 159.99998474121094px"
+          sizes="(max-width: 767px) 100vw, 139.99998474121094px"
           alt=""
           class="emoji-confetti"
         />
@@ -103,7 +104,7 @@
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca50926f632c2bd1e6a32_banner-img1-p-500.jpeg 500w,
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca50926f632c2bd1e6a32_banner-img1.jpg        700w
           "
-          sizes="(max-width: 767px) 100vw, 179.99998474121094px"
+          sizes="(max-width: 767px) 100vw, 149.99998474121094px"
           alt=""
           class="emoji-rainbow"
         /><img
@@ -115,7 +116,7 @@
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca288122fb63ea1612305_project2-p-500.jpeg 500w,
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca288122fb63ea1612305_project2.jpg        568w
           "
-          sizes="(max-width: 767px) 100vw, 179.99998474121094px"
+          sizes="(max-width: 767px) 100vw, 149.99998474121094px"
           alt=""
           class="emoji-robot"
         /><img
@@ -128,20 +129,10 @@
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca2ce5f7c21e101b2bd3c_case2-p-1080.jpeg 1080w,
             https://uploads-ssl.webflow.com/622c9fbbda8388f9a15b60d6/622ca2ce5f7c21e101b2bd3c_case2.jpg         1173w
           "
-          sizes="(max-width: 767px) 100vw, 189.99998474121094px"
+          sizes="(max-width: 767px) 100vw, 139.99998474121094px"
           alt=""
           class="emoji-party"
         />
-        <div class="hide-onload w-embed w-script">
-          <style>
-            .input:valid {
-              border-color: #7851a3;
-            }
-          </style>
-
-          <!--The script is just so you can find it in the designer-->
-          <script></script>
-        </div>
       </div>
     </div>
     <a href="#" class="_w-webflow-badge">Text Link</a>
