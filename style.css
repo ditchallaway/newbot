@@ -1952,7 +1952,7 @@ textarea.w-select {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  padding: 70px 5%;
+  padding: 36px 5% 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1969,8 +1969,10 @@ textarea.w-select {
   position: relative;
   overflow: hidden;
   max-width: 800px;
+  min-height: 100%;
+  margin-top: 20px;
   margin-bottom: 36px;
-  padding: 100px;
+  padding: 40px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2574,6 +2576,10 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .site-wrapper {
+    padding-top: 10px;
+  }
+
   .login-wrapper {
     margin-bottom: 20px;
     padding: 60px 24px;
